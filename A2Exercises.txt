@@ -1,0 +1,29 @@
+3.1.1 Exercises, p56
+
+1. Click on the image link at GitHub to verify that the git push succeeded.
+
+2. At this point, the number of commits is large enough that the output of
+git log -p is probably too big to fit in your terminal window. Confirm
+that running git log -p drops you into a less interface for easier
+navigation.
+*** refer to text output 3.1.1-2.txt for the details of the log 
+
+
+3. Use your knowledge of less commands to search for the commit that
+added the HTML DOCTYPE. What is the SHA of the commit?
+
+*** answer ***
+commit 88f131759622623ec72f6e6ead78fc536b866159
+Author: Eddie C. <edimc2000@gmail.com>
+Date:   Sun Oct 26 12:44:39 2025 -0500
+
+    Add some HTML structure
+
+--------------------------
+3.2.1 Exercises
+
+1. Commit the .gitignore file to your repository. Hint: Running git
+commit -am isn’t enough. Why not?
+
+2. Push your commit up to GitHub and confirm using the web interface that
+the push succeeded.
