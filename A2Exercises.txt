@@ -123,5 +123,8 @@ merge commit is now present.
 
 2. Delete the fix-trademark branch locally. Do you need to use the -D
 option (Section 3.3.2), or is -d sufficient?
+
 3. Delete the remote fix-trademark branch on GitHub. Hint: If you get
 stuck, Google for it.
+
+*** git push origin :fix-trademark
