@@ -28,5 +28,43 @@ commit -am isn’t enough. Why not?
 2. Push your commit up to GitHub and confirm using the web interface that
 the push succeeded.
 
+--------------------------
+
+3.3.2 Exercises
+1. Use the command git branch -d about-page to delete the topic
+branch. Confirm by running git branch that only the main branch is
+left.
+
+2. In Listing 3.3, we used git checkout -b to create a branch and check
+it out at the same time, but it’s also possible to break this into two steps.
+As a first step, use git branch to make a branch with the name test-branch.
+(This involves passing an argument to git branch, as in git branch
+<branch name>.) Then confirm that the new branch exists but isn’t
+currently checked out by running git branch without an argument.
+
+3. Check out test-branch and use touch to add a file with a name of
+your choice, then add and commit it to the repository.
+
+4. Check out the main branch and try deleting the test branch using git
+branch -d to confirm that it doesn’t work. The reason is that, in contrast
+to the about-page branch, the test branch hasn’t been merged into
+main, and by design -d doesn’t work in this case. Because we don’t
+actually want its changes, delete the test by using the related -D option,
+which deletes the branch in question even if its changes are unmerged.
 
 --------------------------
+
+3.4.1 Exercises
+
+1. The git checkout -f trick works only with files that are staged for
+commit or are already part of the repository, but sometimes you want to
+get rid of new files as well. Using touch, create a file with a name of
+your choice, then git add it. Verify that running git checkout -f
+gets rid of it.
+
+2. Like many other Unix programs, git accepts both “short form” and
+“long form” options. Repeat the previous exercise with git checkout
+--force to confirm that the effects of -f and --force are identical.
+Extra credit: Doublecheck
+this conclusion by finding the “force” option
+in the output of git help checkout.
