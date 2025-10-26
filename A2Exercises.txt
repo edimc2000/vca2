@@ -20,10 +20,13 @@ Date:   Sun Oct 26 12:44:39 2025 -0500
     Add some HTML structure
 
 --------------------------
-3.2.1 Exercises
+3.2.1 Exercises, p58
 
 1. Commit the .gitignore file to your repository. Hint: Running git
 commit -am isn’t enough. Why not?
 
 2. Push your commit up to GitHub and confirm using the web interface that
 the push succeeded.
+
+
+--------------------------
