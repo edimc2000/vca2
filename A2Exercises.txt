@@ -74,6 +74,7 @@ in the output of git help checkout.
 
 1. As Alice, run git log to verify that the commit was pulled down correctly.
 Doublecheck the details using git log -p.
+*** output 4.1.1-1output.txt
 
 2. The whale picture added in Listing 3.1 (Figure 3.1) requires attribution
 under the Creative Commons AttributionNoDerivs 2.0 Generic license.
