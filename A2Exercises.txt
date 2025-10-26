@@ -115,11 +115,12 @@ browser and by running git log -p that Bob’s repo has been properly
 updated.
 
 -------------------------
-
 4.3.1 Exercises
+
 1. Bob’s main branch doesn’t currently have Alice’s merge, so check out
 main as Bob and do a git pull. Confirm using git log that Alice’s
 merge commit is now present.
+
 2. Delete the fix-trademark branch locally. Do you need to use the -D
 option (Section 3.3.2), or is -d sufficient?
 3. Delete the remote fix-trademark branch on GitHub. Hint: If you get
